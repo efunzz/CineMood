@@ -1,0 +1,196 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  text-align: left;
+  font-size: 72px;
+}
+
+.feelings-card {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.image-icon {
+  margin-right: 25px;
+}
+
+.content p {
+  font-style: italic;
+}
+
+.feelings-card-image {
+  width: 118px;
+  height: 118px;
+  object-fit: cover;
+  border-radius: 30px;
+  transition: transform 0.6s ease, filter 0.6s ease;
+
+}
+
+.feelings-card-image:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+.horizontal_line {
+  width: 80%;
+  height: 50px;
+  border-top: 1px solid white;
+  line-height: 50%;
+
+}
+
+/* Movies Page */
+
+.movie-card-image {
+  width: 320px;
+  height: 463px;
+  object-fit: cover;
+  border-radius: 30px;
+  transition: transform 0.6s ease, filter 0.6s ease;
+  opacity: 0.5;
+
+}
+
+.horizontal_line2 {
+  width: 10%;
+  height: 50px;
+  border-top: 1px solid white;
+  line-height: 50%;
+
+}
+
+.movie-card-image:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+.movies-selection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Movie Content Page */
+.movie-streaming p {
+  text-align: left;
+}
+
+.movie-description p {
+  text-align: left;
+}
+
+.horizontal_line_3 {
+
+  width: 40%;
+  height: 1px;
+  border-top: 1px solid white;
+  line-height: 50%;
+}
+
+
+
+/* left-sidebar-ccss */
+
+.movie-full-content {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.movie-left-content {
+  width: 300px;
+  position: fixed;
+  height: 100vh;
+}
+
+.movie-streaming-1 {
+
+  transition: transform 0.6s ease, filter 0.6s ease;
+
+}
+
+.movie-streaming-1:hover {
+  transform: scale(1.1);
+}
+
+.movie-right-content {
+  padding-left: 200px;
+  overflow-y: scroll;
+  height: 90vh;
+  padding-top: 65px;
+}
+
+.movie-right-content::-webkit-scrollbar {
+  display: none;
+  /* Hides the scrollbar in Chrome, Safari, and Edge */
+}
+
+.image-ticker {
+  padding-left: 230px;
+  width: 75%;
+  height: 10px;
+  object-fit: cover;
+}
+
+.movie-ticker-image {
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.6s ease, filter 0.6s ease;
+  opacity: 0.5;
+  margin-left: 20px;
+
+}
+
+.movie-ticker-image:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/*right movie content */
+.movie-overview {
+  display: flex;
+}
+
+.overview {
+  width: 100px;
+}
+
+.overview-description {
+  width: 800px;
+  height: 100px;
+  padding-left: 20px;
+}
+
+.movie-actors {
+  display: flex;
+
+}
+
+.actors {
+  width: 100px;
+}
+
+.actors-description {
+  width: 800px;
+  height: 100px;
+  padding-left: 20px;
+}
