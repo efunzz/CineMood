@@ -29,7 +29,7 @@ function Homepage() {
           definition={
             "feeling or showing worry, nervousness, or unease about something with an uncertain outcome."
           }
-          link="moviespage/amxious"
+          link="moviespage/anxious"
         />
         <FeelingsCard
           image={"/images/iconhappy.jpg"}
