@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "moviespage/:id",
+    path: "moviespage/:emotion",
     element: <MoviesPage />,
   },
   {

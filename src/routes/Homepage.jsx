@@ -12,7 +12,7 @@ function Homepage() {
           image={"/images/iconsad.jpg"}
           name={"sad"}
           definition={"feeling or showing sorrow; unhappy."}
-          link="moviespage/1"
+          link="moviespage/sad"
         />
 
         <FeelingsCard
@@ -21,7 +21,7 @@ function Homepage() {
           definition={
             "a strong feeling of annoyance, displeasure, or hostility."
           }
-          link="moviespage/2"
+          link="moviespage/anger"
         />
         <FeelingsCard
           image={"/images/iconanxious.jpg"}
@@ -29,19 +29,19 @@ function Homepage() {
           definition={
             "feeling or showing worry, nervousness, or unease about something with an uncertain outcome."
           }
-          link="moviespage/3"
+          link="moviespage/amxious"
         />
         <FeelingsCard
           image={"/images/iconhappy.jpg"}
           name={"joy"}
           definition={"a feeling of great pleasure and happiness."}
-          link="moviespage/4"
+          link="moviespage/joy"
         />
         <FeelingsCard
           image={"/images/iconcalm.jpg"}
           name={"calm"}
           definition={"make (someone) tranquil and quiet; soothe."}
-          link="moviespage/5"
+          link="moviespage/calm"
         />
       </div>
     </div>
