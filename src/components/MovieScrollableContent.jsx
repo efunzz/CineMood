@@ -7,7 +7,6 @@ function MovieScrollable() {
           height="500"
           src="https://www.youtube.com/embed/LEjhY15eCx0"
           title="YouTube video player"
-          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
@@ -33,9 +32,9 @@ function MovieScrollable() {
         </div>
         <div className="actors-description">
           <p>
-            dwadwdwadLorem ipsum odor amet, consectetuer adipiscing elit. porta
-            dictum tempus, convallis ultrices cubilia. Nunc aliquet cursus
-            praesent maximus nullam
+            Amy Poehler as Joy, Phyllis Smith as Sadness, Bill Hader as Fear,
+            Lewis Black as Anger, Kaitlyn Dias as Riley, Diane Lane as Mom, and
+            Kyle MacLachlan as Dad.
           </p>
         </div>
       </div>
