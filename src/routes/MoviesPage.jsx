@@ -1,16 +1,18 @@
+import { useParams } from "react-router-dom"; // To access the dynamic :emotion parameter
 import "../App.css";
 import MovieCard from "../components/MovieCard";
 import Header from "../components/Header";
 
 function MoviesPage() {
+  const { emotion } = useParams();
   return (
     <div className="movies-content">
-      <Header name={"sad."} />
+      <Header name={`${emotion}.`} />
       <div className="movies-selection">
         <MovieCard
           image={"/images/movieposter1.jpg"}
           name={"sad"}
-          link="moviecontent"
+          link="moviecontent/:movieID"
         />
         <MovieCard
           image={"/images/movieposter2.jpg"}
