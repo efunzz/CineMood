@@ -1,11 +1,11 @@
-function MovieScrollable() {
+function MovieScrollable({ videoTrailer, description, actors }) {
   return (
     <div className="movie-right-content">
       <div className="movie-trailer-video">
         <iframe
           width="790"
           height="500"
-          src="https://www.youtube.com/embed/LEjhY15eCx0"
+          src={videoTrailer ? videoTrailer.replace("watch?v=", "embed/") : ""}
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -16,13 +16,7 @@ function MovieScrollable() {
           <p>Overview</p>
         </div>
         <div className="overview-description">
-          <p>
-            Teenager Riley's mind headquarters is undergoing a sudden demolition
-            to make room for something entirely unexpected: new Emotions! Joy,
-            Sadness, Anger, Fear and Disgust, who’ve long been running a
-            successful operation by all accounts, aren’t sure how to feel when
-            Anxiety shows up. And it looks like she’s not alone.
-          </p>
+          <p>{description}</p>
         </div>
       </div>
 
@@ -31,11 +25,7 @@ function MovieScrollable() {
           <p>Actors</p>
         </div>
         <div className="actors-description">
-          <p>
-            Amy Poehler as Joy, Phyllis Smith as Sadness, Bill Hader as Fear,
-            Lewis Black as Anger, Kaitlyn Dias as Riley, Diane Lane as Mom, and
-            Kyle MacLachlan as Dad.
-          </p>
+          <p>{actors}</p>
         </div>
       </div>
     </div>
