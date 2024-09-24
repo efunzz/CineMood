@@ -14,11 +14,11 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "moviespage/:id",
+    path: "moviespage/:emotion",
     element: <MoviesPage />,
   },
   {
-    path: "moviespage/:id/moviecontent",
+    path: "moviespage/:emotion/moviecontent/:movieID",
     element: <MovieDetailsPage />,
   },
 ]);
