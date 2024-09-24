@@ -3,8 +3,6 @@ function MovieScrollable({ videoTrailer, description, actors }) {
     <div className="movie-right-content">
       <div className="movie-trailer-video">
         <iframe
-          width="790"
-          height="500"
           src={videoTrailer ? videoTrailer.replace("watch?v=", "embed/") : ""}
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
