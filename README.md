@@ -63,4 +63,7 @@ The movies used in this project were selected based on personal opinion and are 
 
 ## License
 
-This project is a personal project and is not intended for commercial use.
+This project is licensed under the Creative Commons Attribution 4.0 International License.  
+You are free to share and adapt the material, provided you give appropriate credit.
+
+See the [LICENSE](./LICENSE) file for more details.
