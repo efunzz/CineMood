@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom"; // To access the dynamic :emotion parameter
+import { useParams } from "react-router-dom";
 import "../App.css";
 import MovieCard from "../components/MovieCard";
 import Header from "../components/Header";
